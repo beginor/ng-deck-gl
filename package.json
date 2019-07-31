@@ -1,12 +1,12 @@
 {
-  "name": "ng-seed",
+  "name": "ng-deck-gl",
   "version": "1.0.0",
   "description": "angular seed app",
   "main": "src/index.html",
   "scripts": {
     "clean": "rm -rf dist coverage",
     "ng": "ng",
-    "build": "ng build --prod --base-href=/ng-seed/ --deploy-url=/ng-seed/",
+    "build": "ng build --prod --base-href=/ng-deck-gl/ --deploy-url=/ng-deck-gl/",
     "lint": "ng lint",
     "start": "ng serve --host 0.0.0.0",
     "test": "ng test --watch",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beginor/ng-seed.git"
+    "url": "git+https://github.com/beginor/ng-deck-gl.git"
   },
   "keywords": [
     "angular",
@@ -26,9 +26,9 @@
   "author": "beginor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beginor/ng-seed/issues"
+    "url": "https://github.com/beginor/ng-deck-gl/issues"
   },
-  "homepage": "https://github.com/beginor/ng-seed#readme",
+  "homepage": "https://github.com/beginor/ng-deck-gl#readme",
   "dependencies": {
     "@angular/animations": "~8.1.3",
     "@angular/common": "~8.1.3",
