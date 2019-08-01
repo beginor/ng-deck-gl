@@ -3,6 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+    mapbox: {
+        // tslint:disable-next-line: max-line-length
+        accessToken: ''
+    },
     production: false
 };
 
