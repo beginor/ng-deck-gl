@@ -30,7 +30,12 @@
             "styles": [
               "projects/web/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/@deck.gl/core/dist.min.js",
+              "./node_modules/@deck.gl/layers/dist.min.js",
+              "./node_modules/@deck.gl/geo-layers/dist.min.js",
+              "./node_modules/@deck.gl/mapbox/dist.min.js"
+            ]
           },
           "configurations": {
             "production": {
