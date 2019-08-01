@@ -43,7 +43,12 @@
     "zone.js": "~0.9.1",
     "bootstrap": "^4.3.1",
     "@ng-bootstrap/ng-bootstrap": "^5.1.0",
-    "@fortawesome/fontawesome-free": "^5.10.0"
+    "@fortawesome/fontawesome-free": "^5.10.0",
+    "mapbox-gl": "^1.2.0",
+    "@deck.gl/core": "^7.1.10",
+    "@deck.gl/layers": "^7.1.10",
+    "@deck.gl/mapbox": "^7.1.10",
+    "@deck.gl/geo-layers": "^7.1.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.3",
@@ -64,6 +69,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "~3.4.3",
+    "@types/mapbox-gl": "^0.54.0"
   }
 }
