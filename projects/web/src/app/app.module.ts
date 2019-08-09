@@ -7,10 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { VehicleComponent } from './vehicle/vehicle.component';
+import { RiverComponent } from './river/river.component';
 
 @NgModule({
     declarations: [
         AppComponent,
+        DashboardComponent,
+        VehicleComponent,
+        RiverComponent,
     ],
     imports: [
         BrowserModule,
@@ -19,7 +26,8 @@ import { environment } from '../environments/environment';
         FormsModule,
         ReactiveFormsModule,
         HttpClientModule,
-        HttpClientJsonpModule
+        HttpClientJsonpModule,
+        AppRoutingModule
     ],
     bootstrap: [AppComponent]
 })

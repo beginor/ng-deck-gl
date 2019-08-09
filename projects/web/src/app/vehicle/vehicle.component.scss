@@ -1,0 +1,5 @@
+@import "../../variables";
+
+.map {
+  @include full-width-height();
+}

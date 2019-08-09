@@ -30,5 +30,9 @@ body {
       text-align: center;
       line-height: 48px;
     }
+
+    a.mapboxgl-ctrl-logo {
+      display: none !important;
+    }
   }
 }
