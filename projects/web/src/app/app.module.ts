@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,7 +17,7 @@ import { RiverComponent } from './river/river.component';
         AppComponent,
         DashboardComponent,
         VehicleComponent,
-        RiverComponent,
+        RiverComponent
     ],
     imports: [
         BrowserModule,
@@ -26,9 +26,11 @@ import { RiverComponent } from './river/river.component';
         FormsModule,
         ReactiveFormsModule,
         HttpClientModule,
-        HttpClientJsonpModule,
+        NgbModule,
+        AppSharedModule,
+        AppCommonModule,
         AppRoutingModule
     ],
     bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
