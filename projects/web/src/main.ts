@@ -1,7 +1,8 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { registerLocaleData } from '@angular/common';
-import zh from '@angular/common/locales/zh';
+import zhHans from '@angular/common/locales/zh-Hans';
+import zhHansEx from '@angular/common/locales/extra/zh-Hans';
 
 import * as mapbox from 'mapbox-gl';
 
@@ -12,7 +13,7 @@ if (environment.production) {
     enableProdMode();
 }
 
-registerLocaleData(zh);
+registerLocaleData(zhHans, 'zh-Hans', zhHansEx);
 
 (mapbox as any).accessToken = environment.mapbox.accessToken;
 
