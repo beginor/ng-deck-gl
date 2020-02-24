@@ -5,6 +5,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppSharedModule } from 'app-shared';
+
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,9 +29,8 @@ import { RiverComponent } from './river/river.component';
         FormsModule,
         ReactiveFormsModule,
         HttpClientModule,
-        NgbModule,
+        // NgbModule,
         AppSharedModule,
-        AppCommonModule,
         AppRoutingModule
     ],
     bootstrap: [AppComponent]

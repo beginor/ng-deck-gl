@@ -45,11 +45,11 @@
     "bootstrap": "^4.4.1",
     "@ng-bootstrap/ng-bootstrap": "^6.0.0",
     "@fortawesome/fontawesome-free": "^5.12.0",
-    "mapbox-gl": "^1.2.0",
-    "@deck.gl/core": "^7.1.10",
-    "@deck.gl/layers": "^7.1.10",
-    "@deck.gl/mapbox": "^7.1.10",
-    "@deck.gl/geo-layers": "^7.1.10",
+    "mapbox-gl": "^1.7.0",
+    "@deck.gl/core": "^8.0.16",
+    "@deck.gl/layers": "^8.0.16",
+    "@deck.gl/mapbox": "^8.0.16",
+    "@deck.gl/geo-layers": "^8.0.16",
     "@turf/turf": "^5.1.6"
   },
   "devDependencies": {
@@ -74,6 +74,6 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5",
-    "@types/mapbox-gl": "^0.54.0"
+    "@types/mapbox-gl": "^1.7.0"
   }
 }
