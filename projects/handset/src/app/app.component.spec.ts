@@ -1,7 +1,5 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-
-import { AppCommonModule } from './common/app-common.module';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -12,8 +10,7 @@ describe('AppComponent', () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             imports: [
-                RouterTestingModule,
-                AppCommonModule
+                RouterTestingModule
             ],
             declarations: [
                 AppComponent
@@ -31,10 +28,12 @@ describe('AppComponent', () => {
         expect(component).toBeTruthy();
     });
 
-    it(`should has a navbar-brand 'Angular App Seed'`, () => {
-        const element = fixture.nativeElement;
-        expect(element.querySelector('a.navbar-brand').textContent)
-            .toContain('Angular App Seed');
+    it(`should have as title 'handset'`, () => {
+        expect(component.title).toEqual('handset');
     });
 
+    it('should render title', () => {
+        const element = fixture.nativeElement;
+        expect(element.querySelector('.content span').textContent).toContain('handset app is running!');
+    });
 });
